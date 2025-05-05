@@ -1,0 +1,32 @@
+style.css – General layout, hero banners, cards, gallery
+These styles resemble modern UI design patterns. Here are useful references:
+
+ Bootstrap Design Patterns
+https://getbootstrap.com/docs/5.3/components/cards/
+Useful for: .product-card, .contact-card, .form-control, .carousel-caption
+
+ Modern CSS Layout with Flexbox/Grid
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+Useful for: responsive sections, image scaling, layout containers.
+
+ slideshow.css – Slideshow and image styling
+ W3Schools Slideshow Tutorial
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+This matches the structure of .slideshow-container, .slide, and .text.
+
+ Login.css – Forms and responsive login UI
+ W3Schools Login Form Example
+https://www.w3schools.com/howto/howto_css_login_form.asp
+This example has similar styling for input, .container, .cancelbtn.
+
+ MDN Web Docs: Form Styling Basics
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms
+
+ contact.css & cart.css – Navigation and flexbox layout
+ W3Schools Navigation Bar Tutorial
+https://www.w3schools.com/css/css_navbar.asp
+
+ CSS Flexbox Guide (used in .flex-container)
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+

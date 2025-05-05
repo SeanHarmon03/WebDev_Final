@@ -1,0 +1,24 @@
+Cian Donnelly (B00160418):
+I contributed the login page, how it works, the logout button so that access is restriced to certain pages and only allowed into certain pages when the user is logged in.
+I created the sessions file which was taken from the lab previous this is to protect sensitive pages and data.
+I implemented session start and the bit of code related to sessions into the pages that needed a lock on them when logged out.
+I implemented the arrays in the car file for organising the data within which also makes it easy to iterate.
+I created all of the UI tests so that it functions correcty and is user-friendly.
+I did the form validation to ensure accuracy, correct format and security.
+I did the design and appearance section in the rubric to allow access to more pages when logged in.
+
+Sean Harmon (B00164655):
+I did the class files to define the objects and there behaviour.
+I did the CRUD functions for developers to manage the data in the webpage.
+I did the data storage for implementation of the stored data from our web page into our database.
+I did the login logic for authentication against our data base.
+I did the unit tests to catch any errors before major updates.
+I created the data base and populated it with the relevant information.
+I implemented the data base to retrieve information.
+
+Aaron Dignam (B00164709):
+I did all of the css in order for a neater look for users.
+I did UI layout for easy accessibility.
+I implemented css within all files, different css depending on the files.
+I implemented php files into certain areas of code for easier implentation (e.g. header file into the top of every page).
+I did form validation in regards to html in order to enhance security (...Required).

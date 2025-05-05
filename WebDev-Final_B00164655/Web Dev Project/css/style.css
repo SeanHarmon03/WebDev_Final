@@ -1,0 +1,170 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+/*nav css*/
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #adb5bd !important;
+}
+
+/*banner */
+.hero-banner {
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay h1 {
+    font-size: 3rem;
+}
+
+.hero-overlay p {
+    font-size: 1.25rem;
+}
+
+.cta-btn {
+    margin-top: 1.5rem;
+}
+
+/*product blocks */
+.product-card {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*cart layout */
+.table-container {
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+.remove-btn {
+    color: #dc3545;
+    font-size: 1.2rem;
+}
+
+.total-section {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/*bloscks for contact*/
+.contact-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+/*gallery imgs*/
+.gallery-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
+.caption {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+/*login*/
+.login-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.login-container img {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/*slideshow */
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
